@@ -1,0 +1,116 @@
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+
+.footer{
+
+    height:800px
+}
+
+.col-lg-4{
+    margin:0 ;
+    padding:25px;
+}
+.section>.row>div>img:hover{
+    border: 5px solid transparent
+}
+
+.card{
+    padding: 10px;
+  
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card:hover{
+    border: 5px solid transparent
+}
+
+
+
+  
+  /* Add padding to containers */
+  .formulario {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+ 
+
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.navpag5{
+  height:300px;
+}
+.asidepag5{
+  height:300px;
+}
+
+@media only screen and (max-width: 767px) {
+
+ .dropdown{
+  text-align: center;
+ 
+}
+
+}
+
+
+@media only screen and (max-width: 342px) {
+
+  .alinear{
+    justify-content: center;
+    text-align: center;
+  }
+ 
+ }
+ 
+ @media only screen and (max-width: 575px) {
+
+  .alinear{
+  
+    text-align: center;
+  }
+ .margsm{
+   margin: 20px;
+ }
+ 
+ }
+ 
+ 
